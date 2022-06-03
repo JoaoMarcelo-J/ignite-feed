@@ -1,0 +1,22 @@
+.header {
+  height: 100px;
+  background-color: var(--gray-800);
+}
+
+.header > div {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header img {
+  height: 2rem;
+}
+
+.headerTitle {
+  color: var(--gray-300);
+  font-weight: 700;
+  font-size: 1.6rem;
+}
