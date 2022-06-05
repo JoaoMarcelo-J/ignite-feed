@@ -1,6 +1,5 @@
 .wrapper {
   height: 294px;
-  width: 256px;
   border-radius: 8px;
   overflow: hidden;
   background-color: var(--gray-800);
@@ -10,6 +9,12 @@
   position: relative;
   height: 66%;
   border-bottom: 1px solid var(--gray-600);
+}
+
+.banner {
+  width: 100%;
+  max-height: 72px;
+  object-fit: cover;
 }
 
 .content {
